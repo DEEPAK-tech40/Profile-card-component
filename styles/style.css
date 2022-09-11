@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg: hsl(185, 75%, 39%);
+    --cardBg: white;
+    --paraBg: hsl(227, 10%, 46%);
+    --h1Bg: hsl(229, 23%, 23%);
+    --hrBg: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--h1Bg);
+}
+
+h1>span {
+    font-weight: 400;
+    color: var(--paraBg);
+}
+
+hr {
+    color: var(--hrBg);
+    width: 100%;
+    margin: 1.7rem;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--paraBg);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    position: absolute;
+    transform: translate(-50%, -45%);
+    width: 100%;
+}
+
+.bottom {
+    position: absolute;
+    transform: translate(44%, 49%);
+    width: 100%;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cardBg);
+    border-radius: 15px;
+    height: 23.3rem;
+    width: 20.5rem;
+}
+
+.card-bg {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+
+.profile {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile>p {
+    margin-top: -10px;
+}
+
+.avatar {
+    /* width: 100px; */
+    border-radius: 100px;
+    border: 6px solid var(--cardBg);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.stats>div {
+    text-align: center;
+}
+
+.stats>div>p {
+    margin: 4px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+
+.credits {
+    position: absolute;
+    top: 83%;
+    color: var(--h1Bg);
+}
+
+.credits>a {
+    text-decoration: none;
+    color: var(--cardBg);
+}
