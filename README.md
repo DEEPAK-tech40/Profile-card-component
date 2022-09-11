@@ -4,16 +4,29 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Overview
 
+![desktop-preview](https://user-images.githubusercontent.com/94350356/189515629-f8d4a3df-680c-4932-b970-a7b64d8375c2.jpg)
+
+
 ### The challenge
 
 - Build out the project to the designs provided
 
 ### Screenshot
 
+Desktop-View:
+
+![2022-09-11 (3)](https://user-images.githubusercontent.com/94350356/189515672-2d26bb42-bc38-4787-b1e7-d57ee75f06ce.png)
+
+
+Mobile-View:
+
+![2022-09-11 (2)](https://user-images.githubusercontent.com/94350356/189515658-4ddd7089-0ab0-4c13-a687-41565c1d9e66.png)
+
+
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profilecardcomponent-Bb09Y4HqvC)
+- Live Site URL: [Live site](https://deepak-tech40-profilecard.netlify.app)
 
 ## My process
 
